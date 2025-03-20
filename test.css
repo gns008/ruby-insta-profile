@@ -1,0 +1,278 @@
+body{
+    
+    padding-bottom: 1000px;
+    margin-top: 0;
+}
+div{
+    font-family: Roboto;
+}
+/*.top{
+    background-color: antiquewhite;
+    height: 445px;
+    position: relative;
+    left:213px;
+    display: grid;
+    grid-column: 50px 1fr;
+    margin-left: 87.5px;
+    margin-right: 212px;
+}*/
+.profilepicture{
+    
+    display: flex;
+    flex-direction: row;
+    margin-left: 416px;
+    margin-top: 51px;
+    align-items: center;
+    
+}
+
+.profiledetail{
+    margin-left: 50px;
+}
+
+.profilepic{
+    height: 140px;
+    width: 140px;
+    border-radius: 70px;
+        }
+
+
+
+.profiledetailrow1{
+    
+   display: flex;
+   flex-direction: row;
+}
+.buttons{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.button1{
+    width: 100px;
+    height:30px ;
+    border-radius: 5px;
+    border: none;
+    font-family: Roboto;
+    font-weight: bold;
+}
+.button2{
+    margin-left: 0px;
+    margin-top: 0px;
+    padding-left: 6px;
+    padding-right: 6px;
+    width: 100px;
+    height:30px ;
+    border-radius: 5px;
+    border: none;
+    font-family: Roboto;
+    font-weight: bold;
+    vertical-align: top;}
+.add
+    {
+     height: 20px;
+     width: 20px;
+    }
+
+.profiledetailrow2{
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.post{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 5px;
+    margin-right: 40px;
+}
+
+.acctype{
+    color: gray;
+}
+.about{
+    display: flex;
+    width: 450px;
+    font-size: small;
+    font-weight: 380;
+}
+
+.storyline{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    column-gap: 50px;
+    margin-left: 314px;
+    align-items: center;
+
+}
+.storyimg{
+    height: 77px;
+    width: 77px;
+    border-radius: 38px;
+    margin-bottom: 15px;
+}
+
+.story{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+    font-weight: 450;
+}
+
+.contentline{
+    display: flex;
+    flex-direction: row;
+    border-top: solid;
+    border-color: rgb(190, 187, 187);
+    border-width: 0.5px;
+    justify-content: center;
+    padding-left: 205px;
+    column-gap: 50px;
+    margin-top: 70px;
+    z-index: 0;
+}
+
+.contentline1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contentimg{
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
+
+.contentname{
+    font-size: 12px;
+}
+
+
+
+.leftbar{
+    position: fixed;
+    width: 212px;
+    top:0;
+    bottom: 0;
+    border-right: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    z-index: 200;
+    background-color: white
+}
+@media (max-width:1000px){
+    .leftbar{
+        width: 100px;
+
+    }
+}
+.instaicon{
+    width: 100px;
+}
+.leftside-bar{
+    margin-left: 15px;
+    margin-top: 25px;
+    z-index: 100;
+}
+@media (max-width:1000px){
+    .leftside-bar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+
+
+.lefttool{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+    margin-bottom: 2px;
+   padding-left: 10px;
+   cursor: pointer;
+
+}
+@media (max-width:1000px){
+    .lefttool{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
+
+.lefttool:hover{
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+
+.lefticons{
+    height: 23px;
+    width: 23px;
+    padding-right: 15px;
+}
+@media(max-width:1000px){
+    .lefticons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.lefticons1{
+    height: 23px;
+    width: 23;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.leftconent{
+    font-size: 16px;
+}
+@media (max-width:1000px){
+    .leftconent{
+        display: none;
+        }
+}
+.thumimg{
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    
+}
+.thumpnail{
+    object-fit: cover;
+}
+
+.thumbnailrow{
+    padding-left: 314px;
+    padding-right: 100px;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+
+@media (max-width:1000px)
+{
+    .thumbnailrow{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
